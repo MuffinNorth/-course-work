@@ -1,0 +1,29 @@
+html{
+    text-align: center;
+    margin: -8px;
+}
+li{
+    list-style: none;
+    display: block;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+li:hover{
+    color: wheat;
+    background-color: red;
+    transition-duration: .5s;
+}
+li:active{
+    background-color: darkred;
+}
+hr{
+    margin: 0;
+    border-color: darkred;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size:14pt;
+}
