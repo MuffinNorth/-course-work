@@ -19,6 +19,7 @@ function SwitchMenu() {
   console.log('In');
   if (MainMenu.classList.contains('mainMenuClose')) {
     MainMenu.classList.remove('mainMenuClose');
+    MainMenu.classList.add('Duration');
   } else {
     MainMenu.classList.add('mainMenuClose');
   }

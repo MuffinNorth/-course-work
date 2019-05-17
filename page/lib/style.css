@@ -3,7 +3,7 @@
     height: 100%;
 }
 body{ 
-    background-color: darkblue; 
+    background-color: darkslateblue; 
     background-image: url(img/bg.jpg);
     font-family: sans-serif;
 }
@@ -76,7 +76,6 @@ body{
   visibility: hidden;
 }
 .mainMenu{
-  transition-duration: 0.7s;
   border: 1px solid darkred;
   width: 150px;
   background-color: rgba(50,50,50,1);
@@ -135,4 +134,7 @@ body{
     text-align: center;
     color: white;
     font-family: monospace;
+}
+.Duration{
+    transition-duration: .5s;
 }
