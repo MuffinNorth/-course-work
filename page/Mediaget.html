@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="lib/img/icon.ico" type="image/x-icon">
+	  <link rel="stylesheet" href="lib/style.css">
+    <link rel="stylesheet" href="lib/rewiew.css">
+    <title>MediaGet</title>
+</head>
+
+<body>
+	<div class="menu">
+		<li onclick="SwitchMenu()" ><img id="menuI" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA2SURBVEhL7dGxDQAwDAJB9l/aGYDvSGHJnPQdHapb5nOGRkm1EB2VZGiUVAvRUUmGRkl1g/QA8+53if5aVp8AAAAASUVORK5CYII="></li>
+    <img id="logo" src="data:image/png;base64,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">
+	</div>
+  <div id="left"></div>
+  <div id="right"></div>
+	<div class="mainMenu mainMenuClose">
+        <iframe scrolling="no" frameborder="no" id="menuIF" src="menu.html"></iframe>
+	</div>
+
+	<div class="content">
+        <h1>MediaGet</h1>
+        <img id="face" src="lib/img/review/FaceUtorrent.png" align="left">
+        <table border>
+            <tr><td><img src="lib/img/clients/mediaget_1.png"></td><td><b>MediaGet</b></td></tr>
+            <tr><td>Автор</td><td>Людвиг Стригеус</td></tr>
+            <tr><td>Разработчик</td><td>BitTorrent, Inc.</td></tr>
+            <tr><td>Написан на</td><td>С++</td></tr>
+            <tr><td>Операционная система</td><td>Windows, Mac OS X, Android, Linux</td></tr>
+            <tr><td>Поддержка русского языка</td><td>Да</td></tr>
+            <tr><td>Сайт</td><td><a href="http://utorrent.com/intl/ru/">utorrent.com</a></td></tr>
+        </table>
+        <p><b>μTorrent</b> (также uTorrent и microTorrent, произносится как «мю-торрент» — BitTorrent-клиент для Windows, macOS, Linux (веб-интерфейс) и Android, написанный
+            на C++ и отличающийся небольшим размером и высокой скоростью работы при достаточно большой функциональности. В
+            январе 2011 года количество пользователей в месяц достигло отметки в 100 миллионов (совместно с BitTorrent). В настоящее время, куплен BitTorrent'ом.</p>
+        <hr>
+        <br>
+        <br>
+        <h2>Разработка</h2>
+        <p>μTorrent первоначально задумывался как производительный клиент, минимальный как по размеру, так и по возможностям. Разработчик μTorrent Людвиг Стригеус
+            начал писать клиент осенью 2004 года, затем забросил проект примерно на год и возобновил работу в сентябре 2005 года. Первая доступная версия (1.1 бета)
+            появилась 18 сентября 2005 года.</p>
+        <h3>Покупка компанией «BitTorrent, Inc»</h3>
+        <p>В середине 2006 года Мартин Лорентсон ищет сотрудников для своего нового проекта «Spotify» и через общих знакомых по университету Чалмерса выходит
+            на Людвига и знакомит его Даниэлем Эком. Последний принимает решение выкупить «μTorrent», чтобы Людвиг сосредоточился на «Spotify».</p>
+        <p>Даниэлю «μTorrent» тоже не нужен и 7 декабря 2006 года «μTorrent» перешёл в собственность компании «BitTorrent, Inc.». В соответствии
+            с соглашением, основную дальнейшую разработку клиента будет осуществлять «BitTorrent, Inc», а Стригеус станет техническим консультантом.</p>
+        <p>«μTorrent» останется программой с закрытым исходным кодом, BitTorrent, начиная с 6-й версии, основывается на его исходном коде и имеет почти
+            одинаковый с ним интерфейс. Вебсайт и форум «μTorrent» пока останутся без изменений.</p>
+        <h3>Системные требования</h3>
+        <p>Исполняемый файл μTorrent занимает порядка 1 мегабайта на диске, использует минимум оперативной памяти и ресурсов процессора. Программа
+            может работать даже на устаревших компьютерах с процессором уровня Intel 80486 под управлением Windows 95 (версии до 1.8.5 build 17091).
+            Windows 2000 поддерживается в версиях до 3.1.2 build 26773, современные версии требуют Windows XP и выше.</p>
+    </div>
+    <div id="about">@Асуб 18-2 Кузнецов Анатолий 2019</div>
+	<script src="lib/script.js">
+	</script>
+  </body>
+</html>
