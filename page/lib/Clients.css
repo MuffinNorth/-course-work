@@ -1,6 +1,7 @@
 table{
     text-align: center;
     width: 100%;
+    
 }
 table a{
     color: blue;
@@ -9,4 +10,7 @@ table a{
 table a:hover{
     color: red;
     text-decoration:underline;
+}
+.content {
+    overflow-x: scroll;
 }
