@@ -1,23 +1,32 @@
+.content{
+    background-color: rgba(255,255,255,0);
+    border: none;
+}
 .content h1{
     font-family: monospace;
+    background-color: white;
+    border-radius: 20px;
 }
 .content b{
     font-size: 20px;
     font-family: monospace;
 }
 .content li{
+    background-color: white;
     font-size: 16px;
     border-style: solid;
     border-color: gainsboro;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 5px;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
     cursor: copy;
     list-style: none;
+    border-radius: 10px;
 }
 .content li:hover{
     margin-left: 20px;
     border-color: dimgrey;
     margin-right: -20px;
+    transform: rotate(0.5deg);
 }
