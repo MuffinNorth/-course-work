@@ -4,11 +4,33 @@
     transition-duration: .5s;
     margin: 80px;
 }
-#moon:hover{
-    width: 300px;
-    margin: 240px;
-    margin: 90px;
+#moon a{
+    width: 0;
+    height: 0;
 }
+.moons{
+
+}
+.planet{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+@keyframes move{
+  0% {
+    left: 0;
+    bottom: 0; 
+  }
+  100% { 
+    left: 145px; 
+    bottom: 145px;
+  }  
+}
+
 #qA{
     text-align: center;
     padding-top: 60px;
