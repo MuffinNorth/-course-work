@@ -14,21 +14,20 @@
     font-family: monospace;
 }
 .content li{
+    transition-duration: .5s;
     background-color: white;
-    font-size: 16px;
+    font-size: 13px;
     border-style: solid;
     border-color: gainsboro;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
     padding: 5px;
-    transition-duration: 0.3s;
-    cursor: copy;
+    cursor: help;
     list-style: none;
     border-radius: 10px;
 }
 .content li:hover{
-    margin-left: 15px;
+    transition-duration: .5s;
     border-color: dimgrey;
-    margin-right: -15px;
-    transform: rotate(0.5deg);
+    transform:  scale(1.2);
 }
