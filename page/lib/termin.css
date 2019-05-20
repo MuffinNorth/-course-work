@@ -25,9 +25,11 @@
     cursor: help;
     list-style: none;
     border-radius: 10px;
+    box-shadow:0 0 7px silver;
 }
 .content li:hover{
     transition-duration: .5s;
     border-color: dimgrey;
     transform:  scale(1.2);
+    box-shadow:0 0 20px white;
 }
