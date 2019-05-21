@@ -4,6 +4,19 @@
     padding-left: 60px;
     padding-right: 60px;
 }
+p{
+    position: absolute;
+    right: 30px;
+    margin-top: 0;
+    color: rgba(255,255,255,0.3);
+}
+p a {
+    color: rgba(255,255,255,0.3);
+    text-decoration: none;
+}
+p a:hover {
+    color: rgba(255,255,255,0.5);
+}
 .qute{
     text-align: center;
     display: inline-block;
@@ -87,11 +100,5 @@
     margin-top: 270px;;
     float: left;
     color: white;
-}
-.termins a{
-    text-decoration: none;
-    margin-top: 270px;;
-    float: right;
-    color: white;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }

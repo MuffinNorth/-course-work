@@ -1,0 +1,11 @@
+.mapDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mapDiv img{
+    margin-top: 60px;
+    border-radius: 60px;
+    box-shadow:0 0 30px silver;
+}

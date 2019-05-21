@@ -7,7 +7,11 @@
     background-color: white;
     border-radius: 20px;
     border-color: gainsboro;
-    border-style: solid
+    border-style: solid;
+    transition-duration: .5s
+}
+.content h1:hover{
+    box-shadow: 0 0 20px white;
 }
 .content b{
     font-size: 20px;
