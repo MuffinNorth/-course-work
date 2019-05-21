@@ -1,0 +1,9 @@
+.content{
+    padding: 0;
+    padding-top: 50px;
+}
+.content iframe{
+    width: 100%;
+    height: 88vh;
+    border-style: none;
+}
