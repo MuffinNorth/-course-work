@@ -38,6 +38,7 @@ body{
   margin-top: -8px;
   width: calc(100% - 18px);
   border: 1px solid darkred;
+/*    box-shadow: 0 0 200px 10px whitesmoke;*/
 }
 .menuBefore{
   background-color: rgba(50,50,50,0.7);
