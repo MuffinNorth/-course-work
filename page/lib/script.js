@@ -1,4 +1,4 @@
-// Add your code here
+
 var menu = document.getElementsByClassName('menu')[0];
 console.log('Update');
 var MainMenu = document.getElementsByClassName('mainMenu')[0];

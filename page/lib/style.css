@@ -186,4 +186,5 @@ body{
 .content img:active{
     transform: scale(1.35); 
     box-shadow:0 0 10px white;
+    background-color: white;
 }
